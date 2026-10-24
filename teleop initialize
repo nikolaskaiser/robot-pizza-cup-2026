@@ -1,0 +1,7 @@
+cd ~/norma-core/software/station/examples/st3215-remote-teleop-py
+
+uv run --python 3.12 python main.py \
+  --leader-server localhost \
+  --leader-bus 5B61034999 \
+  --follower-server localhost \
+  --follower-bus 5B61034794
